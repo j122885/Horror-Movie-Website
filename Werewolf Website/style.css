@@ -36,7 +36,7 @@
 		font-family: "Lucida Sans Unicode", "Arial Black", Gadget, sans-serif;
 		font-size: 55px;
 	}
-	#sidebar {
+	#sidebar.hidden{
 		background: #151718;
 		width: 200px;
 		height: 100%;
@@ -48,7 +48,7 @@
 	}
 	#sidebar.visible{
 			left: 1px;
-			transition: left 0.3s linear;
+			transition: left 0.03s  linear;
 		
 	}
 	#sidebar-btn {
@@ -62,7 +62,7 @@
 	}
 	
 	span {
-			height: 1px;
+			height: 2px;
 			background: gray;
 			margin-bottom: 5px;
 			display: block;
@@ -78,16 +78,20 @@
 	ul{ 
 		margin: 0px;
 		padding:0px;
+		list-style-type: none;
+		
 	}
-	ul li a{ 
-		background:1c1E1F;
+	li a{
+		background: gray;
 		color: white;
 		border-bottom:1px solid #111;
 		display: block;
 		width: 180px;
 		padding:10px;
-		font: 27px;
+		font: 30px;
 		text-decoration: none;
+		list-style-type: none;
+		
 	}
 	
 	
