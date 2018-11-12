@@ -1,0 +1,95 @@
+<style> 
+	h1{ 
+		color: white;
+		font-family: "Lucida Sans Unicode", "Arial Black", Gadget, sans-serif;
+		font-size: 55px;
+	}
+	p{ 
+		color: white;
+		font-family: "Lucida Sans Unicode", "Arial Black", Gadget, sans-serif;
+		font-size: 23px;
+	}
+	p{ 
+		color: white;
+		font-family: "Lucida Sans Unicode", "Arial Black", Gadget, sans-serif;
+		font-size: 23px;
+	}
+	p1{ 
+		color: white;
+		font-family: "Lucida Sans Unicode", "Arial Black", Gadget, sans-serif;
+		font-size: 15px;
+	}
+	p2{ 
+		color: white;
+		font-family: "Lucida Sans Unicode", "Arial Black", Gadget, sans-serif;
+		font-size: 15px;
+	}
+	p. small {
+		line-height: 0.7;
+		}
+	p. big {
+		line-height: 1.8;
+		}
+		
+	h1{ 
+		color: white;
+		font-family: "Lucida Sans Unicode", "Arial Black", Gadget, sans-serif;
+		font-size: 55px;
+	}
+	#sidebar {
+		background: #151718;
+		width: 200px;
+		height: 100%;
+		display: block;
+		position: absolute;
+		left:-200px;
+		top: 0px;
+		transition: left 0.3s linear;
+	}
+	#sidebar.visible{
+			left: 1px;
+			transition: left 0.3s linear;
+		
+	}
+	#sidebar-btn {
+			display: inline-block;
+			vertical-align: middle;
+			width: 20px;
+			height: 15px;
+			cursor: pointer;
+			margin:20px;
+			
+	}
+	
+	span {
+			height: 1px;
+			background: gray;
+			margin-bottom: 5px;
+			display: block;
+			width: 50px;
+
+	}
+	span:nth-child(2) {
+		width: 37.5px;
+	}
+	span:nth-child(3) {
+		width: 25px;
+	}
+	ul{ 
+		margin: 0px;
+		padding:0px;
+	}
+	ul li a{ 
+		background:1c1E1F;
+		color: white;
+		border-bottom:1px solid #111;
+		display: block;
+		width: 180px;
+		padding:10px;
+		font: 27px;
+		text-decoration: none;
+	}
+	
+	
+	
+	</style>
