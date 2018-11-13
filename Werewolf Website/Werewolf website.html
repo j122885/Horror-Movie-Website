@@ -1,35 +1,38 @@
-<html> 
+<!DOCTYPE html> 
 <head> 
 <title> Wolf by Night </title>
-<div id="sidebar">	
-</div>
-<body bgcolor="black">
 <link rel="stylesheet" href="style.css">
-</div>
 </head>
-<body>
-<div id="sidebar" ;
+<body bgcolor="black">
+
+<div id="sidebar">
 	<ul>
-		<li><a href="#">Classic WW Movies</a></li>
-		<li><a href="#">Link 2</a></li>
+		 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><b>&times;</b></a>
+		<li><a href="Classic WW movies page.html">Classic WW Movies</a></li>
+		<li><a href="">Link 2</a></li>
 		<li><a href="#">Link 3</a></li>
 		<li><a href="#">Link 4</a></li>
 		<li><a href="#">Link 5</a></li>
 	</ul>
 </div>
-<div id="sidebar-btn">
-	<span onclick="myFunction()"> text1 </span>
-	<span onclick="myFunction()"></span>
-	<span onclick="myFunction()"></span>
-</div>
 
+<div id="sidebar-btn">
+	<span onclick="openNav()"></span>
+	<span onclick="openNav()"></span>
+	<span onclick="openNav()"></span>
+</div>
 <script>
-function myFunction() {
-    var element = document.getElementById("sidebar");
-    element.classList.toggle("visible")
-}
+function openNav() {
+     document.getElementById("sidebar").style.left = "0px";
+		
+					}
+function closeNav() {
+	document.getElementById("sidebar").style.left = "-200px";
+	}
+
  </script>
-<h1> Werewolf Movies <h1>
+
+<h1> Werewolf Movies </h1>
 <img src="https://bit.ly/2RO2UXY" style="width:200px;height:260px;">
 <p> The Howling </p>
 <p1 class = "big"> After a bizarre and near deadly encounter with a serial killer, a television newswoman is sent to a remote mountain resort whose residents may not be what they seem.

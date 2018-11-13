@@ -1,4 +1,5 @@
 <style> 
+	
 	h1{ 
 		color: white;
 		font-family: "Lucida Sans Unicode", "Arial Black", Gadget, sans-serif;
@@ -36,19 +37,16 @@
 		font-family: "Lucida Sans Unicode", "Arial Black", Gadget, sans-serif;
 		font-size: 55px;
 	}
-	#sidebar {
+	#sidebar{
 		background: #151718;
 		width: 200px;
 		height: 100%;
 		display: block;
 		position: absolute;
-		left:-200px;
+		left:-2000px;
 		top: 0px;
 		transition: left 0.3s linear;
 	}
-	#sidebar.visible{
-			left: 1px;
-			transition: left 0.3s linear;
 		
 	}
 	#sidebar-btn {
@@ -62,11 +60,12 @@
 	}
 	
 	span {
-			height: 1px;
+			height: 5px;
 			background: gray;
 			margin-bottom: 5px;
 			display: block;
 			width: 50px;
+			
 
 	}
 	span:nth-child(2) {
@@ -78,16 +77,33 @@
 	ul{ 
 		margin: 0px;
 		padding:0px;
+		list-style-type: none;
+		
 	}
-	ul li a{ 
-		background:1c1E1F;
+	li a{
+		background: gray;
 		color: white;
 		border-bottom:1px solid #111;
 		display: block;
 		width: 180px;
 		padding:10px;
-		font: 27px;
+		font-size: 20px;
 		text-decoration: none;
+		list-style-type: none;
+		
+		
+		
+	}
+	
+	a {
+		color: gray;
+		float: right;
+		font: 30px;
+		text-decoration: none;
+		margin-left: 50px;
+		
+		
+
 	}
 	
 	
