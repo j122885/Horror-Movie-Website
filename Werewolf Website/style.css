@@ -19,11 +19,14 @@
 		color: white;
 		font-family: "Lucida Sans Unicode", "Arial Black", Gadget, sans-serif;
 		font-size: 15px;
+		width: 1px;
+		max-width: 50px;
 	}
 	p2{ 
 		color: white;
 		font-family: "Lucida Sans Unicode", "Arial Black", Gadget, sans-serif;
 		font-size: 15px;
+		max-width: 10%;
 	}
 	p. small {
 		line-height: 0.7;
@@ -106,6 +109,19 @@
 
 	}
 	
-	
+	Header {
+		color: white;
+		font-family: "Lucida Sans Unicode", "Arial Black", Gadget, sans-serif;
+		font-size: 55px;
+		text-align: center;
+		
+	}
+	Header ul li {
+		border-color: white;
+		text-align: center;
+		display: inline;
+		
+		
+	}
 	
 	</style>
